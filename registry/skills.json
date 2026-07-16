@@ -1,6 +1,6 @@
 {
   "repo_name": "yao-open-skills",
-  "updated_at": "2026-06-19",
+  "updated_at": "2026-07-16",
   "skills": [
     {
       "slug": "yao-bayesian-skill",
@@ -263,6 +263,29 @@
       ],
       "last_synced_at": "2026-04-06",
       "updated_at": "2026-06-13"
+    },
+    {
+      "slug": "yao-positioning-skill",
+      "title": "Yao Positioning Skill",
+      "summary": "基于《定位》、现代产品定位、课程营销与证据治理，完成竞品研究、需求洞察、D6 优势诊断、定位方案比较和离线可视化报告。",
+      "source_local_path": "/Users/laoyao/AI Coding/03-Development/Skills/yao-positioning-skill",
+      "collection_path": "skills/yao-positioning-skill",
+      "lifecycle": "active",
+      "sync_status": "staged",
+      "github_repo": "yao-open-skills",
+      "github_url": "https://github.com/yaojingang/yao-open-skills/tree/main/skills/yao-positioning-skill",
+      "guide_path": "docs/skills/yao-positioning-skill.md",
+      "license": "MIT",
+      "tags": [
+        "positioning",
+        "strategy",
+        "competition",
+        "evidence",
+        "reporting",
+        "html"
+      ],
+      "last_synced_at": null,
+      "updated_at": "2026-07-16"
     },
     {
       "slug": "yao-tutorial-skill",
