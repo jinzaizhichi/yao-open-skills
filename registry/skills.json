@@ -271,7 +271,7 @@
       "source_local_path": "/Users/laoyao/AI Coding/03-Development/Skills/yao-positioning-skill",
       "collection_path": "skills/yao-positioning-skill",
       "lifecycle": "active",
-      "sync_status": "staged",
+      "sync_status": "published",
       "github_repo": "yao-open-skills",
       "github_url": "https://github.com/yaojingang/yao-open-skills/tree/main/skills/yao-positioning-skill",
       "guide_path": "docs/skills/yao-positioning-skill.md",
@@ -284,7 +284,7 @@
         "reporting",
         "html"
       ],
-      "last_synced_at": null,
+      "last_synced_at": "2026-07-16",
       "updated_at": "2026-07-16"
     },
     {
