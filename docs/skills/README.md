@@ -11,6 +11,7 @@ Current guides:
 - [yao-open-skills-sync](yao-open-skills-sync.md)
 - [yao-bayesian-skill](yao-bayesian-skill.md)
 - [yao-business-skill](yao-business-skill.md)
+- [yao-cold-ledger-skill](yao-cold-ledger-skill.md)
 - [yao-copyright-skill](yao-copyright-skill.md)
 - [yao-crux-skill](yao-crux-skill.md)
 - [yao-demand-skill](yao-demand-skill.md)

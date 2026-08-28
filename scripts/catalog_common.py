@@ -18,6 +18,7 @@ TAG_LABELS = {
     "business-model": "商业模式",
     "catalog": "目录",
     "charts": "图表",
+    "cold-ledger": "冷账叙事",
     "competition": "竞争",
     "copyright": "版权",
     "dast": "DAST",
@@ -32,6 +33,7 @@ TAG_LABELS = {
     "export": "导出",
     "first-principles": "第一性原理",
     "forecast": "预测",
+    "fiction": "虚构写作",
     "game-theory": "博弈论",
     "governance": "治理",
     "headers": "文件头",
@@ -42,6 +44,7 @@ TAG_LABELS = {
     "kelly": "凯利公式",
     "keywords": "关键词",
     "negotiation": "谈判",
+    "narrative": "叙事",
     "notes": "笔记",
     "pdf": "PDF",
     "personalization": "个性化",
@@ -57,6 +60,7 @@ TAG_LABELS = {
     "security": "安全",
     "skills": "Skill",
     "strategy": "战略",
+    "style-analysis": "文风分析",
     "tutorials": "教程",
     "validation": "验证",
     "visual-reporting": "可视化报告",
@@ -66,6 +70,7 @@ TAG_LABELS = {
     "weread": "微信读书",
     "word-cloud": "词云",
     "workflow": "工作流",
+    "writing": "写作",
 }
 
 
@@ -94,7 +99,7 @@ CATEGORIES = [
         slug="learning-content",
         title="学习与内容",
         short_title="学习",
-        description="把主题、资料、阅读数据和学习者画像生产成教程、报告或可视化内容。",
+        description="把主题、资料、阅读数据和写作方法生产成教程、报告、故事或可视化内容。",
     ),
     CatalogCategory(
         slug="engineering-governance",
@@ -108,6 +113,7 @@ CATEGORIES = [
 CATEGORY_BY_SLUG = {
     "yao-bayesian-skill": "decision-strategy",
     "yao-business-skill": "business-research",
+    "yao-cold-ledger-skill": "learning-content",
     "yao-copyright-skill": "engineering-governance",
     "yao-crux-skill": "decision-strategy",
     "yao-demand-skill": "business-research",

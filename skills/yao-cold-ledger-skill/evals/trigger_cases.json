@@ -1,0 +1,39 @@
+{
+  "recommended_threshold": 0.48,
+  "should_trigger": [
+    {"text": "使用 $yao-cold-ledger-skill，根据我提供的虚构人物资料写一个 500 字片段。", "family": "explicit_skill_name"},
+    {"text": "用冷账叙事写一篇两千字的关系故事。", "family": "explicit_name"},
+    {"text": "把这段经历写成冷峻账本感的短篇，用数字、工序和物件承载情绪。", "family": "style_signals"},
+    {"text": "用精确数字和具体工序推进关系，让物件回环，人物对白保持克制。", "family": "mechanism_bundle"},
+    {"text": "参考这篇文章的数字细节、克制对白和物件回环，分析方法后写一个全新故事。", "family": "reference_adaptation"},
+    {"text": "按冷账叙事给我一个 300 字片段，场景是凌晨医院。", "family": "fragment"},
+    {"text": "分析这篇冷账叙事的结构、句式、叙事距离和结尾回声。", "family": "analysis"},
+    {"text": "Write a Chinese relationship story in a cold-ledger style, using operational details and restrained dialogue.", "family": "english"},
+    {"text": "我想写普通家庭照护，不要豪门，用班次、药量和缴费记录推进感情。", "family": "low_cost_ledger"},
+    {"text": "把我的虚构人物设定扩成一篇账单感、留白很多的第一人称长篇。", "family": "long_form"},
+    {"text": "用一叠公司财务账单作为叙事道具，写合伙人决裂的冷账故事。", "family": "ledger_as_story_material"}
+  ],
+  "should_not_trigger": [
+    {"text": "帮我润色这封邮件，语气自然一点。", "family": "general_polish"},
+    {"text": "把这篇公众号文章去掉 AI 味。", "family": "general_polish"},
+    {"text": "核对一下这位明星的婚姻传闻是不是真的。", "family": "fact_check"},
+    {"text": "整理本月公司的财务账本和报销记录。", "family": "financial_ledger"},
+    {"text": "把这份英文报告翻译成中文。", "family": "translation"},
+    {"text": "总结这个 PDF 的主要观点，控制在五条。", "family": "summary"},
+    {"text": "照着原文逐句换同义词，人物名字和金额也换掉。", "family": "copy_request"},
+    {"text": "搜索最近三十天关于港口自动化的研究。", "family": "research"},
+    {"text": "帮我安排护理站下个月的护士班次，按工时均衡。", "family": "shift_scheduling"},
+    {"text": "根据体重计算儿童药量，并整理今天的缴费记录。", "family": "medical_admin"},
+    {"text": "这份统计报告需要精确数字，别写文学化内容。", "family": "statistics"},
+    {"text": "帮我写一篇第一人称长篇小说，风格温暖明亮。", "family": "generic_first_person_fiction"}
+  ],
+  "near_neighbor": [
+    {"text": "用卡兹克的个人风格写一篇 AI 公众号长文。", "family": "khazix_writer"},
+    {"text": "根据这些材料写一篇普通公众号文章。", "family": "generic_long_form"},
+    {"text": "分析这篇论文的结构和论证质量。", "family": "academic_analysis"},
+    {"text": "写一个温暖治愈的家庭短篇，风格自由。", "family": "generic_fiction"},
+    {"text": "把我的草稿改得更冷静克制，但保留原结构。", "family": "general_rewrite"},
+    {"text": "给这篇文章起十个有传播力的标题。", "family": "headline"},
+    {"text": "把这个网页设计成账单感，留白很多。", "family": "visual_design"}
+  ]
+}

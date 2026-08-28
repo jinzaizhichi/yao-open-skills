@@ -38,9 +38,9 @@ def main():
     args = parse_args()
     today = date.today().isoformat()
     repo_root = Path(__file__).resolve().parents[1]
-    repo_name = repo_root.name
     registry_path = repo_root / "registry" / "skills.json"
-    registry = load_registry(registry_path, repo_name)
+    registry = load_registry(registry_path, repo_root.name)
+    repo_name = registry.get("repo_name") or repo_root.name
 
     tags = [tag.strip() for tag in args.tags.split(",") if tag.strip()]
     record = {
