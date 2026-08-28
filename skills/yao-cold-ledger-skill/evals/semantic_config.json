@@ -1,0 +1,50 @@
+{
+  "fallback_positive_concepts": ["cold_ledger_capability"],
+  "positive_concepts": {
+    "cold_ledger_capability": {
+      "weight": 0.7,
+      "phrases": [
+        "yao-cold-ledger-skill",
+        "冷账叙事",
+        "冷峻账本感",
+        "数字、工序和物件承载情绪",
+        "精确数字和具体工序推进关系",
+        "数字细节、克制对白和物件回环",
+        "用班次、药量和缴费记录推进感情",
+        "operational details and restrained dialogue",
+        "账单感、留白很多的第一人称长篇",
+        "冷账故事"
+      ]
+    },
+    "analysis_task": {
+      "weight": 0.15,
+      "phrases": ["分析", "拆解", "结构", "句式", "叙事距离", "方法论", "analyze"]
+    },
+    "writing_task": {
+      "weight": 0.15,
+      "phrases": ["写一篇", "写一个", "创作", "扩成", "片段", "短篇", "长篇", "story", "draft"]
+    }
+  },
+  "negative_concepts": {
+    "financial_ledger": {
+      "weight": 0.7,
+      "exclusive": true,
+      "phrases": ["整理财务账本", "公司财务账本", "会计处理", "报销记录", "公司对账", "公司记账"]
+    },
+    "fact_check": {
+      "weight": 0.55,
+      "exclusive": true,
+      "phrases": ["核对传闻", "是不是真的", "事实核查", "查证传闻"]
+    },
+    "copy_request": {
+      "weight": 0.55,
+      "exclusive": true,
+      "phrases": ["逐句换同义词", "照着原文逐句", "复刻原句", "一模一样"]
+    },
+    "translation_only": {
+      "weight": 0.5,
+      "exclusive": true,
+      "phrases": ["翻译成中文", "translate only", "只翻译"]
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "repo_name": "yao-open-skills",
-  "updated_at": "2026-07-16",
+  "updated_at": "2026-08-28",
   "skills": [
     {
       "slug": "yao-bayesian-skill",
@@ -47,6 +47,28 @@
       ],
       "last_synced_at": "2026-04-23",
       "updated_at": "2026-06-13"
+    },
+    {
+      "slug": "yao-cold-ledger-skill",
+      "title": "Yao Cold Ledger Skill",
+      "summary": "分析或创作冷账叙事中文关系故事，用精确数字、工序、物件回环、克制对白和留白承载情绪，并内置原创距离与事实边界检查。",
+      "source_local_path": "/Users/laoyao/.agents/skills/yao-cold-ledger-skill",
+      "collection_path": "skills/yao-cold-ledger-skill",
+      "lifecycle": "active",
+      "sync_status": "staged",
+      "github_repo": "yao-open-skills",
+      "github_url": "https://github.com/yaojingang/yao-open-skills/tree/main/skills/yao-cold-ledger-skill",
+      "guide_path": "docs/skills/yao-cold-ledger-skill.md",
+      "license": "MIT",
+      "tags": [
+        "cold-ledger",
+        "narrative",
+        "writing",
+        "style-analysis",
+        "fiction"
+      ],
+      "last_synced_at": null,
+      "updated_at": "2026-08-28"
     },
     {
       "slug": "yao-copyright-skill",

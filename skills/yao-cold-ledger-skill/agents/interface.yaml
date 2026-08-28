@@ -1,0 +1,31 @@
+interface:
+  display_name: "Yao 冷账叙事"
+  short_description: "用数字、账单、物件回环和克制对白写高密度中文关系故事"
+  default_prompt: "使用 $yao-cold-ledger-skill，按我的素材和字数要求创作冷峻、克制、以事实细节承载情绪的原创中文故事。默认只返回标题和正文。"
+routing:
+  near_neighbors:
+    - "write：普通润色、改写、短文案和去 AI 味"
+    - "khazix-writer：卡兹克个人风格的公众号长文"
+    - "learn：多来源研究、知识整理和事实型文章"
+  exclusions:
+    - "公司财务账目、会计或报销处理"
+    - "新闻核查与真实人物私密爆料"
+    - "对参考文本原句、标志性比喻或逐拍情节的复刻"
+compatibility:
+  canonical_format: "agent-skills"
+  adapter_targets:
+    - "openai"
+    - "generic"
+  activation:
+    mode: "manual"
+    paths: []
+  execution:
+    context: "inline"
+    shell: "bash"
+  trust:
+    source_tier: "local"
+    remote_inline_execution: "forbid"
+    remote_metadata_policy: "allow-metadata-only"
+  degradation:
+    openai: "agent-skills-source"
+    generic: "neutral-source"
